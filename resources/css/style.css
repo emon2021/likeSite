@@ -1,0 +1,283 @@
+/*===fonts===*/
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+/*===default css===*/
+html{scroll-behavior:smooth}
+img{width:100%}
+button{outline:none;}
+nav{z-index:999999999999}
+/*===nav bar css===*/
+.body{
+	font-family: 'Gothic A1', sans-serif;
+	font-size:16px;
+	}
+	p{
+	color:#6c6c6f;
+	font-size:1em;
+	}
+	h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
+.navbar-brand  span{
+	color: #fed136;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-brand {
+	color: #fff;
+	font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+	font-weight:bold;
+	letter-spacing:0.1em;
+}
+.font_dark{color:black}
+.navbar-nav .nav-item .nav-link{
+	padding: 1.7em 1em!important;
+	font-size: 100%;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Gothic A1', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{color:#ff9800  !important;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #fed136;
+}
+.dropdown-item:hover{background-color:#fed136;color:#fff;}
+nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+	}
+	
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+	border-bottom:3px solid #ff9800;
+}
+.nav_ancor{color:black !important}
+/*.shadow {box-shadow: 3px 3px 3px transparent;}*/
+span.typewrite {
+    color: white;
+    font-size: 30px;
+    font-family: 'concert one',arial;
+}
+h1.animated_text {
+    margin-top: -25px;
+    margin-bottom: -20px;
+}
+.banner{
+	background-image: linear-gradient(#0000008a,#0000004d), url(../images/banner.jpg);
+	text-align: center;
+    color: #fff;
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding:215px 0 165px 0;
+}
+.banner-heading{
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:#fff;
+}
+.banner-sub-heading{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+	color:#fff;
+}
+
+.btn-banner{
+	font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff !important;
+    text-transform: uppercase;
+    background: none;
+    border-radius: 0px;
+    padding: 12px 45px;
+	outline:none;
+	border: 1px solid white;
+}
+a.text-dark:focus, a.text-dark:hover{color:white !important}
+a.btn-warning:hover{background:#ff9800 !important;border-color:#ff9800 !important;}
+.text-intro{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	padding-top:30px;
+}
+/*===nav bar css end===*/
+/*===about area css===*/
+.img_wrapper {
+    width: 190px;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 190px;
+    border: 4px solid white;
+    margin: auto;
+    margin-top: -75px;
+}
+p.titleP {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 8px;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+	font-family: 'concert one',arial;
+}
+h1.heading {text-align: center;font-size: 28px;font-family: 'concert one',cursive;}
+h1.profile_txt {
+    text-align: center;
+    margin-top: 30px;
+    color: #FF9800;
+	font-size: 35px;
+    font-weight: bold;
+	font-family:'concert one',arial;
+}
+p.tags {
+    text-align: center;
+    font-size: 20px;
+}
+h4.nm_dt_em {
+    font-size: 25px;
+    font-family: concert one;
+    font-weight: bold;
+    color: #ff9800;
+    padding: 10px 0px;
+}
+p.full_name {
+    font-family: 'concert one',arial;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+p.birth.nde {font-family: arial; font-size: 18px;}
+p.email.nde {font-size: 18px;}
+.progress.Custom {margin: 50px 0px;}
+.col-md-5.margin_Bottom {margin-bottom: 50px;}
+span.barTitle {
+    position: absolute;
+    top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span.barTitle1 {
+    position: absolute;
+    top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span.barTitle2 {
+    position: absolute;
+    top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span.barTitle3 {
+    position: absolute;
+    top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span.barTitle4 {
+    position: absolute;
+    top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span.barTitle5 {
+    position: absolute;
+    top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+span.perTitle {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 300px;
+    right: 16px;
+}
+span.perTitle1 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 362px;
+    right: 16px;
+}
+span.perTitle2 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 419px;
+    right: 16px;
+}
+span.perTitle3 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 476px;
+    right: 16px;
+}
+span.perTitle4 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 534px;
+    right: 16px;
+}
+span.perTitle5 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 593px;
+    right: 16px;
+}
+.resume:hover{background: #17a2b8;}
+.prgs1_title {position: relative;}
+.resume {margin-bottom: 10px;background:#34495E;border:#34495E;border-radius:3px !important;transition: 0.25s linear;}
+section#about {background: #f1f1f1;padding-bottom:12px;}
+.hireBtn a {border-radius: 0;outline:none;}
+#progRes,#progRes1,#progRes2,#progRes3,#progRes4,#progRes5 {background: #ff9800;}
+a.download_btn {
+    border: 2px solid #ff9800;
+    padding: 15px 60px;
+    text-decoration: none;
+    background: #ff9800;
+    color: white;
+    border-radius: 2px;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: 0.2s linear;
+}
+a.hire_btn {
+    border: 2px solid #3c3c3c;
+    padding: 15px 100px;
+    text-decoration: none;
+    color: #3c3c3c;
+    font-weight: bold;
+    transition: 0.2s linear;
+}
+a.download_btn:hover {
+    background: none;
+    color: #3c3c3c;
+    border-color: #3c3c3c;
+}
+a.hire_btn:hover {
+    background: #ff9800;
+    border-color: #ff9800;
+    color: white;
+}
+.btn_wrapper {padding:70px 0px;width: 100%;}
+/*===about area css end===*/
